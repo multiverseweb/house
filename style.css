@@ -148,31 +148,28 @@ body{
     left:72vw;
 }
 
+
 #w{
-    opacity: 0;
     transition-duration: 1s;
-    top: 28vh;
+    top:47vh;
     width: 26vw;
     left:54vw;
 }
 #x{
-    opacity: 0;
     transition-duration: 1s;
-    top:43vh;
+    top:62vh;
     width: 26vw;
     left:54vw;
 }
 #y{
-    opacity: 0;
     transition-duration: 1s;
     height: 15vh;
-    top:28vh;
+    top:47vh;
     left:54vw;
 }
 #z{
-    opacity: 0;
     transition-duration: 1s;
     height: 15vh;
-    top:28vh;
+    top:47vh;
     left:80vw;
 }
