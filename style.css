@@ -10,7 +10,7 @@ body{
     color: rgba(255, 255, 255, 0.877);
     font-family: 'Courier New', Courier, monospace;
     position: fixed;
-    top:90vh;
+    top:85vh;
     left: 50vw;
     transform: translateX(-50%);
     transition-duration: 1s;
