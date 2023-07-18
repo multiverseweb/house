@@ -1,4 +1,4 @@
-//alert('Hello there! This is my first project that is entirely based on JavaScript. Enjoy scrolling! :D');
+alert('Hello there! This is my first project that is entirely based on JavaScript. Enjoy scrolling! :D');
 window.onscroll = function() {
     scrollFunction()
   };
