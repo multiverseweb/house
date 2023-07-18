@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.877);
+    transition-duration: 1s;
+}
+.texts{
+    color: rgba(255, 255, 255, 0.877);
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    top:90vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    transition-duration: 1s;
+}
+#ext{
+    height: 5000px;
+}
+#int{
+    position: sticky;
+    left:0;
+    top: 0;
+    transition-duration: 1s;
+}
+.h{
+    background-color: rgba(255, 255, 255, 0.879);
+    position: absolute;
+    height: 1px;
+    transition-duration: 1.5s;
+}
+.v{
+    background-color: rgba(255, 255, 255, 0.879);
+    position: absolute;
+    width: 1px;
+    transition-duration: 1.5s;
+}
+#a{
+    width: 80vw;
+    top:80vh;
+    left:10vw;
+    transition-duration: 1.5s;
+}
+#b{
+    height: 60vh;
+    top:20vh;
+    left:16vw;
+}
+#c{
+    height: 45vh;
+    top:35vh;
+    left:84vw;
+}
+#d{
+    height: 60vh;
+    top:20vh;
+    left:50vw;
+}
+#e{
+    top:70vh;
+    width: 34vw;
+    left:50vw;
+}
+#f{
+    height: 13vh;
+    top:67vh;
+    left:52vw;
+}
+#g{
+    height: 13vh;
+    top:67vh;
+    left:56vw;
+}
+#h{
+    height: 13vh;
+    top:67vh;
+    left:60vw;
+}
+#i{
+    height: 13vh;
+    top:67vh;
+    left:64vw;
+}
+#j{
+    height: 13vh;
+    top:67vh;
+    left:68vw;
+}
+#k{
+    height: 13vh;
+    top:67vh;
+    left:72vw;
+}
+#l{
+    height: 13vh;
+    top:67vh;
+    left:76vw;
+}
+#m{
+    height: 13vh;
+    top:67vh;
+    left:80vw;
+}
+#n{
+    top:71.1vh;
+    width: 34vw;
+    left:50vw;
+}
+#o{
+    top:77vh;
+    width: 34vw;
+    left:50vw;
+}
+#p{
+    top:76vh;
+    width: 34vw;
+    left:50vw;
+}
+#q{
+    top:47vh;
+    width: 26vw;
+    left:54vw;
+}
+#r{
+    top:62vh;
+    width: 26vw;
+    left:54vw;
+}
+#s{
+    height: 15vh;
+    top:47vh;
+    left:54vw;
+}
+#t{
+    height: 15vh;
+    top:47vh;
+    left:80vw;
+}
+#u{
+    height: 15vh;
+    top:47vh;
+    left:63vw;
+}
+#v{
+    height: 15vh;
+    top:47vh;
+    left:72vw;
+}
+
+#w{
+    opacity: 0;
+    transition-duration: 1s;
+    top: 28vh;
+    width: 26vw;
+    left:54vw;
+}
+#x{
+    opacity: 0;
+    transition-duration: 1s;
+    top:43vh;
+    width: 26vw;
+    left:54vw;
+}
+#y{
+    opacity: 0;
+    transition-duration: 1s;
+    height: 15vh;
+    top:28vh;
+    left:54vw;
+}
+#z{
+    opacity: 0;
+    transition-duration: 1s;
+    height: 15vh;
+    top:28vh;
+    left:80vw;
+}
