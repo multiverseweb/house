@@ -4,22 +4,22 @@ window.onscroll = function() {
   };
 
   function scrollFunction() {
-    if (document.body.scrollTop > 10 ||
-      document.documentElement.scrollTop > 10) {
+    if (document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20) {
         document.getElementById("a").style.width="80vw";
       }
-      if (document.body.scrollTop < 10 ||
-        document.documentElement.scrollTop < 10){
+      if (document.body.scrollTop < 20 ||
+        document.documentElement.scrollTop < 20){
         document.getElementById("a").style.width="0vw";
         document.getElementById("int").style.opacity="0";
       }
-      if (document.body.scrollTop > 200 ||
-        document.documentElement.scrollTop > 200) {
+      if (document.body.scrollTop > 400 ||
+        document.documentElement.scrollTop > 400) {
           document.getElementById("int").style.opacity="1";
       }
 
-    if (document.body.scrollTop > 500 ||
-        document.documentElement.scrollTop > 500) {
+    if (document.body.scrollTop > 800 ||
+        document.documentElement.scrollTop > 800) {
         document.getElementById("int").style.scale="0.6";
         document.getElementById("int").style.top="20vh";
         document.getElementById("int").style.marginLeft="23vw";
