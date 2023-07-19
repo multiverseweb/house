@@ -10,7 +10,7 @@ body{
     color: rgba(255, 255, 255, 0.877);
     font-family: 'Courier New', Courier, monospace;
     position: fixed;
-    top:85vh;
+    top:90vh;
     left: 50vw;
     transform: translateX(-50%);
     transition-duration: 1s;
@@ -22,7 +22,8 @@ body{
     position: sticky;
     left:0;
     top: 0;
-    transition-duration: 1s;
+    transition-duration: 1.5s;
+    opacity: 0;
 }
 .h{
     background-color: rgba(255, 255, 255, 0.879);
@@ -37,13 +38,14 @@ body{
     transition-duration: 1.5s;
 }
 #a{
-    width: 80vw;
+    position: sticky;
+    width: 0vw;
     top:80vh;
     left:10vw;
     transition-duration: 1.5s;
 }
 #b{
-    height: 60vh;
+    height: 59vh;
     top:20vh;
     left:16vw;
 }
@@ -148,7 +150,6 @@ body{
     left:72vw;
 }
 
-
 #w{
     transition-duration: 1s;
     top:47vh;
@@ -172,4 +173,24 @@ body{
     height: 15vh;
     top:47vh;
     left:80vw;
+}
+#a1{
+    width: 36vw;
+    top:79vh;
+    right:50vw;
+}
+#b1{
+    width: 33vw;
+    top:78vh;
+    right:50vw;
+}
+#c1{
+    width: 30vw;
+    top:77vh;
+    right:50vw;
+}
+#d1{
+    width: 27vw;
+    top:76vh;
+    right:50vw;
 }
