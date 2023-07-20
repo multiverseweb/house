@@ -18,8 +18,8 @@ window.onscroll = function() {
           document.getElementById("int").style.opacity="1";
       }
 
-    if (document.body.scrollTop > 800 ||
-        document.documentElement.scrollTop > 800) {
+    if (document.body.scrollTop > 1500 ||
+        document.documentElement.scrollTop > 1500) {
         document.getElementById("int").style.scale="0.6";
         document.getElementById("int").style.top="20vh";
         document.getElementById("int").style.marginLeft="23vw";
