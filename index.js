@@ -1,26 +1,26 @@
-//alert('Hello there! This is my first project that is entirely based on JavaScript. Enjoy scrolling! :D');
+alert('Hello there! This is my first project that is entirely based on JavaScript. Enjoy scrolling! :D');
 window.onscroll = function() {
     scrollFunction()
   };
 
   function scrollFunction() {
-    if (document.body.scrollTop > 10 ||
-      document.documentElement.scrollTop > 10) {
+    if (document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20) {
         document.getElementById("a").style.width="80vw";
       }
-      if (document.body.scrollTop < 10 ||
-        document.documentElement.scrollTop < 10){
+      if (document.body.scrollTop < 20 ||
+        document.documentElement.scrollTop < 20){
         document.getElementById("a").style.width="0vw";
         document.getElementById("int").style.opacity="0";
         document.getElementById("text").innerHTML="Scroll slowly for better experience...";
       }
-      if (document.body.scrollTop > 200 ||
-        document.documentElement.scrollTop > 200) {
+      if (document.body.scrollTop > 500 ||
+        document.documentElement.scrollTop > 500) {
           document.getElementById("int").style.opacity="1";
       }
 
-    if (document.body.scrollTop > 500 ||
-        document.documentElement.scrollTop > 500) {
+    if (document.body.scrollTop > 1200 ||
+        document.documentElement.scrollTop > 1200) {
         document.getElementById("int").style.scale="0.6";
         document.getElementById("int").style.top="20vh";
         document.getElementById("int").style.marginLeft="23vw";
