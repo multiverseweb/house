@@ -168,12 +168,14 @@ body {
 }
 
 #u {
+    transition-duration: 1.2s;
     height: 15vh;
     top: 44vh;
     left: 63vw;
 }
 
 #v {
+    transition-duration: 1.2s;
     height: 15vh;
     top: 44vh;
     left: 72vw;
@@ -181,28 +183,28 @@ body {
 
 #w {
     height:4px;
-    transition-duration: 1s;
+    transition-duration: 1.5s;
     top: 44vh;
     width: 26vw;
     left: 54vw;
 }
 
 #x {
-    transition-duration: 1s;
+    transition-duration: 1.5s;
     top: 59vh;
     width: 26vw;
     left: 54vw;
 }
 
 #y {
-    transition-duration: 1s;
+    transition-duration: 1.5s;
     height: 15vh;
     top: 44vh;
     left: 54vw;
 }
 
 #z {
-    transition-duration: 1s;
+    transition-duration: 1.5s;
     height: 15vh;
     top: 47vh;
     left: 80vw;
