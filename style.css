@@ -29,7 +29,28 @@ body {
     transition-duration: 1.5s;
     opacity: 0;
 }
-
+.plants{
+    position: absolute;
+    opacity: 0.5;
+    filter: invert(1);
+    height: 14vh;
+    top:66vh;
+    left:47vw;
+}
+#pl1{
+    margin-left: 5vw;
+    top:71vh;
+    height: 9vh;
+}
+#pl2{
+    margin-left: 9vw;
+}
+#pl3{
+    margin-left: 17vw;
+}
+#pl4{
+    margin-left: 23vw;
+}
 #car{
     transition-duration: 1.5s;
     position: absolute;
