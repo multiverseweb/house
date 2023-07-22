@@ -1,4 +1,4 @@
-alert('Hello there!\nThis is my first project that is entirely based on JavaScript.\nEnjoy scrolling! :D');
+//alert('Hello there!\n This is my first project that is entirely based on JavaScript.\nEnjoy scrolling! :D');
 window.onscroll = function() {
     scrollFunction()
   };
@@ -211,5 +211,39 @@ if (document.body.scrollTop > 2300 ||
   else{
     document.getElementById("car").style.left="-120vw";
   }
-}
 
+  if (document.body.scrollTop > 2700 ||
+    document.documentElement.scrollTop > 2700) {
+    document.getElementById("int").style.scale="0.4";
+    document.getElementById("int").style.top="30vh";
+    document.getElementById("int").style.marginLeft="-3vw";
+    document.getElementById("a").style.width="84vw";
+    document.getElementById("a").style.left="8vw";
+    document.getElementById("a").style.top="62vh";
+    document.getElementById("a1").style.right="53vw";
+    document.getElementById("b1").style.right="53vw";
+    document.getElementById("c1").style.right="53vw";
+    document.getElementById("d1").style.right="53vw";
+    document.getElementById("i3").style.height="5vh";
+    document.getElementById("j3").style.height="5vh";
+    document.getElementById("i3").style.top="75.2vh";
+    document.getElementById("j3").style.top="75.2vh";
+    document.getElementById("text").innerHTML="House With Garage and Lawn";
+    }
+    else{
+      document.getElementById("int").style.scale="0.6";
+    document.getElementById("int").style.top="20vh";
+    document.getElementById("int").style.marginLeft="23vw";
+    document.getElementById("a").style.width="80vw";
+    document.getElementById("a").style.left="10vw";
+    document.getElementById("a").style.top="67.8vh";
+    document.getElementById("a1").style.right="27vw";
+    document.getElementById("b1").style.right="27vw";
+    document.getElementById("c1").style.right="27vw";
+    document.getElementById("d1").style.right="27vw";
+    document.getElementById("i3").style.height="0vh";
+    document.getElementById("j3").style.height="0vh";
+    document.getElementById("i3").style.top="80vh";
+    document.getElementById("j3").style.top="80vh";
+    }
+  }
