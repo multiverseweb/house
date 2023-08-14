@@ -26,7 +26,7 @@ body {
 }
 
 #int {
-    position: sticky;
+    position: fixed;
     left: 0;
     top: 0;
     transition-duration: 1.5s;
@@ -248,25 +248,25 @@ body {
 #a1 {
     width: 36vw;
     top: 79vh;
-    right: 47vw;
+    right: 0vw;
 }
 
 #b1 {
     width: 33vw;
     top: 78vh;
-    right: 50vw;
+    right: 0vw;
 }
 
 #c1 {
     width: 30vw;
     top: 77vh;
-    right: 50vw;
+    right: 0vw;
 }
 
 #d1 {
     width: 27vw;
     top: 76vh;
-    right: 50vw;
+    right: 0vw;
 }
 
 #e1 {
