@@ -44,10 +44,10 @@ window.onscroll = function() {
         document.getElementById("a").style.width="80vw";
         document.getElementById("a").style.left="10vw";
         document.getElementById("a").style.top="67.8vh";
-        document.getElementById("a1").style.right="23.5vw";
-        document.getElementById("b1").style.right="23.5vw";
-        document.getElementById("c1").style.right="23.5vw";
-        document.getElementById("d1").style.right="23.5vw";
+        document.getElementById("a1").style.right="-50vw";
+        document.getElementById("b1").style.right="-50vw";
+        document.getElementById("c1").style.right="-50vw";
+        document.getElementById("d1").style.right="-50vw";
         }
         else {
           document.getElementById("a").style.width="80vw";
@@ -56,13 +56,14 @@ window.onscroll = function() {
           document.getElementById("int").style.scale="1";
           document.getElementById("int").style.top="0vh";
           document.getElementById("int").style.marginLeft="0vw";
-          document.getElementById("a1").style.right="46vw";
-          document.getElementById("b1").style.right="46vw";
-          document.getElementById("c1").style.right="46vw";
-          document.getElementById("d1").style.right="46vw";
+          document.getElementById("a1").style.right="-50vw";
+          document.getElementById("b1").style.right="-50vw";
+          document.getElementById("c1").style.right="-50vw";
+          document.getElementById("d1").style.right="-50vw";
         }
     if (document.body.scrollTop > 1600 ||
         document.documentElement.scrollTop > 1600) {
+          document.getElementById("int").style.marginLeft="37vw";
         document.getElementById("b").style.height="39vh";
         document.getElementById("c").style.height="60vh";
         document.getElementById("b").style.top="40vh";
@@ -91,6 +92,10 @@ window.onscroll = function() {
         document.getElementById("u").style.height="0vh";
         document.getElementById("v").style.height="0vh";
         document.getElementById("text").innerHTML="House With Garage";
+        document.getElementById("a1").style.right="-50vw";
+        document.getElementById("b1").style.right="-50vw";
+        document.getElementById("c1").style.right="-50vw";
+        document.getElementById("d1").style.right="-50vw";
       } 
     else {
         document.getElementById("b").style.height="59vh";
@@ -191,10 +196,6 @@ window.onscroll = function() {
       document.getElementById("h3").style.height="21vh";
       document.getElementById("h3").style.opacity="1";
       document.getElementById("h3").style.top="59vh";
-      document.getElementById("a1").style.right="24vw";
-      document.getElementById("b1").style.right="24vw";
-      document.getElementById("c1").style.right="24vw";
-      document.getElementById("d1").style.right="24vw";
 }
 else{
   document.getElementById("s2").style.height="0vh";
@@ -250,14 +251,10 @@ if (document.body.scrollTop > 2300 ||
     document.documentElement.scrollTop > 2700) {
     document.getElementById("int").style.scale="0.4";
     document.getElementById("int").style.top="30vh";
-    document.getElementById("int").style.marginLeft="-3vw";
+    document.getElementById("int").style.marginLeft="26vw";
     document.getElementById("a").style.width="84vw";
     document.getElementById("a").style.left="8vw";
     document.getElementById("a").style.top="62vh";
-    document.getElementById("a1").style.right="48.5vw";
-    document.getElementById("b1").style.right="48.5vw";
-    document.getElementById("c1").style.right="48.5vw";
-    document.getElementById("d1").style.right="48.5vw";
     document.getElementById("i3").style.height="7vh";
     document.getElementById("j3").style.height="7vh";
     document.getElementById("i3").style.top="73.2vh";
@@ -282,10 +279,6 @@ if (document.body.scrollTop > 2300 ||
     document.getElementById("a").style.width="80vw";
     document.getElementById("a").style.left="10vw";
     document.getElementById("a").style.top="80vh";
-    document.getElementById("a1").style.right="46.6vw";
-    document.getElementById("b1").style.right="46.5vw";
-    document.getElementById("c1").style.right="46.5vw";
-    document.getElementById("d1").style.right="46.5vw";
     document.getElementById("i3").style.height="0vh";
     document.getElementById("j3").style.height="0vh";
     document.getElementById("i3").style.top="80vh";
