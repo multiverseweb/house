@@ -7,7 +7,10 @@ body {
     transition-duration: 1s;
     overflow-x: hidden;
 }
-
+#main{
+    transition-duration: 0s;
+    opacity: 0;
+}
 .texts {
     color: rgba(255, 255, 255, 0.877);
     font-family: 'Courier New', Courier, monospace;
@@ -245,7 +248,7 @@ body {
 #a1 {
     width: 36vw;
     top: 79vh;
-    right: 50vw;
+    right: 47vw;
 }
 
 #b1 {
@@ -466,9 +469,9 @@ body {
     top:67vh;
 }
 #o2{
-    height:15vh;
+    height:0vh;
     left:-43vw;
-    top:65vh;
+    top:80vh;
 }
 #p2{
     height:15vh;
@@ -477,8 +480,8 @@ body {
 }
 #q2{
     border-radius: 50%;
-    width: 6vw;
-    height:6vw;
+    width: 0vw;
+    height:0vw;
     left:-46vw;
     top:62vh;
 }
@@ -576,15 +579,56 @@ body {
 }
 #i3{
     opacity: 0.6;
-    height: 5vh;
+    height: 7vh;
     width:14vw;
     top:75vh;
     left:84vw;
+    transition-duration: 1.5s;
 }
 #j3{
     opacity: 0.6;
-    height: 5vh;
+    height: 7vh;
     width:30vw;
     top:75vh;
     left:124vw;
+    transition-duration: 1.5s;
 }
+.trees{
+    position: absolute;
+    height: 30vh;
+    top:50vh;
+    left:82vw;
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+#tr2{
+    height: 40vh;
+    top:40vh;
+    margin-left: 35vw;
+}
+#tr3{
+    width:68vw;
+    height:3vh;
+    left:85vw;
+    top:77vh
+}
+
+#myBtn {
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 20px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: rgba(255, 255, 255, 0.87); /* Text color */
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 30px; /* Increase font size */
+    transition-duration: 0.3s;
+  }
+  
+  #myBtn:hover {
+    color: #939393d6;
+  }
