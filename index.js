@@ -287,16 +287,18 @@ if (document.body.scrollTop > 2300 ||
     document.getElementById("tr2").style.opacity="0";
     document.getElementById("tr3").style.opacity="0";
     }}
-    if (document.body.scrollTop > 3000 ||
-      document.documentElement.scrollTop > 3000) {
+    if (document.body.scrollTop > 3300 ||
+      document.documentElement.scrollTop > 3300) {
     document.getElementById("text").innerHTML="Thank You! :)";
       }
-      if (document.body.scrollTop > 2800 ||
-        document.documentElement.scrollTop > 2800) {
+      if (document.body.scrollTop > 3400 ||
+        document.documentElement.scrollTop > 3400) {
           document.getElementById("myBtn").style.display="block";
+        document.getElementById("credits").opacity="1";
         }
         else{
           document.getElementById("myBtn").style.display="none";
+          document.getElementById("credits").opacity="0";
         }
           
   }
