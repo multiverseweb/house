@@ -17,8 +17,8 @@ window.onscroll = function() {
   function scrollFunction() {
     if (document.body.scrollTop > 1 ||
       document.documentElement.scrollTop > 1) {
-        document.getElementById("main").style.backgroundImage="linear-gradient(to right, transparent 29px, rgba(65, 65, 65, 0.607) 1px),linear-gradient(to bottom, transparent 29px, rgba(65, 65, 65, 0.605) 1px)";
-        document.getElementById("main").style.backgroundSize= "30px 30px";
+        document.getElementById("main").style.backgroundImage="linear-gradient(to right, transparent 19px, rgba(65, 65, 65, 0.607) 1px),linear-gradient(to bottom, transparent 19px, rgba(65, 65, 65, 0.605) 1px)";
+        document.getElementById("main").style.backgroundSize= "20px 20px";
         document.getElementById("main").style.backgroundAttachment= "fixed";
         document.getElementById("main").style.opacity="1";
       }
