@@ -1,8 +1,27 @@
 alert('Hello there!\nThis is my first project that is entirely based on JavaScript.\nEnjoy scrolling! :D');
+
+
+
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+
 window.onscroll = function() {
     scrollFunction()
   };
+  
   function scrollFunction() {
+    if (document.body.scrollTop > 1 ||
+      document.documentElement.scrollTop > 1) {
+        document.getElementById("main").style.backgroundImage="linear-gradient(to right, transparent 29px, rgba(65, 65, 65, 0.607) 1px),linear-gradient(to bottom, transparent 29px, rgba(65, 65, 65, 0.605) 1px)";
+        document.getElementById("main").style.backgroundSize= "30px 30px";
+        document.getElementById("main").style.backgroundAttachment= "fixed";
+        document.getElementById("main").style.opacity="1";
+      }
     if (document.body.scrollTop > 10 ||
       document.documentElement.scrollTop > 10) {
         document.getElementById("a").style.width="80vw";
@@ -25,10 +44,10 @@ window.onscroll = function() {
         document.getElementById("a").style.width="80vw";
         document.getElementById("a").style.left="10vw";
         document.getElementById("a").style.top="67.8vh";
-        document.getElementById("a1").style.right="27vw";
-        document.getElementById("b1").style.right="27vw";
-        document.getElementById("c1").style.right="27vw";
-        document.getElementById("d1").style.right="27vw";
+        document.getElementById("a1").style.right="23.5vw";
+        document.getElementById("b1").style.right="23.5vw";
+        document.getElementById("c1").style.right="23.5vw";
+        document.getElementById("d1").style.right="23.5vw";
         }
         else {
           document.getElementById("a").style.width="80vw";
@@ -37,10 +56,10 @@ window.onscroll = function() {
           document.getElementById("int").style.scale="1";
           document.getElementById("int").style.top="0vh";
           document.getElementById("int").style.marginLeft="0vw";
-          document.getElementById("a1").style.right="50vw";
-          document.getElementById("b1").style.right="50vw";
-          document.getElementById("c1").style.right="50vw";
-          document.getElementById("d1").style.right="50vw";
+          document.getElementById("a1").style.right="46vw";
+          document.getElementById("b1").style.right="46vw";
+          document.getElementById("c1").style.right="46vw";
+          document.getElementById("d1").style.right="46vw";
         }
     if (document.body.scrollTop > 1600 ||
         document.documentElement.scrollTop > 1600) {
@@ -127,6 +146,13 @@ window.onscroll = function() {
         document.getElementById("r2").style.top="65vh";
   }
 
+  if (document.body.scrollTop > 1600 ||
+    document.documentElement.scrollTop > 1600) {
+      document.getElementById("o2").style.height="15vh";
+      document.getElementById("o2").style.top="65vh";
+      document.getElementById("q2").style.height="6vw";
+      document.getElementById("q2").style.width="6vw";
+    }
   if (document.body.scrollTop > 2000 ||
     document.documentElement.scrollTop > 2000) {
     document.getElementById("s2").style.height="5vh";
@@ -165,6 +191,10 @@ window.onscroll = function() {
       document.getElementById("h3").style.height="21vh";
       document.getElementById("h3").style.opacity="1";
       document.getElementById("h3").style.top="59vh";
+      document.getElementById("a1").style.right="24vw";
+      document.getElementById("b1").style.right="24vw";
+      document.getElementById("c1").style.right="24vw";
+      document.getElementById("d1").style.right="24vw";
 }
 else{
   document.getElementById("s2").style.height="0vh";
@@ -207,6 +237,10 @@ if (document.body.scrollTop > 2300 ||
     document.getElementById("car").style.left="-40vw";
     document.getElementById("a").style.left="10vw";
     document.getElementById("a").style.width="80vw";
+    document.getElementById("i3").style.height="0vh";
+    document.getElementById("j3").style.height="0vh";
+    document.getElementById("i3").style.top="80vh";
+    document.getElementById("j3").style.top="80vh";
   }
   else{
     document.getElementById("car").style.left="-120vw";
@@ -220,30 +254,56 @@ if (document.body.scrollTop > 2300 ||
     document.getElementById("a").style.width="84vw";
     document.getElementById("a").style.left="8vw";
     document.getElementById("a").style.top="62vh";
-    document.getElementById("a1").style.right="53vw";
-    document.getElementById("b1").style.right="53vw";
-    document.getElementById("c1").style.right="53vw";
-    document.getElementById("d1").style.right="53vw";
-    document.getElementById("i3").style.height="5vh";
-    document.getElementById("j3").style.height="5vh";
-    document.getElementById("i3").style.top="75.2vh";
-    document.getElementById("j3").style.top="75.2vh";
+    document.getElementById("a1").style.right="48.5vw";
+    document.getElementById("b1").style.right="48.5vw";
+    document.getElementById("c1").style.right="48.5vw";
+    document.getElementById("d1").style.right="48.5vw";
+    document.getElementById("i3").style.height="7vh";
+    document.getElementById("j3").style.height="7vh";
+    document.getElementById("i3").style.top="73.2vh";
+    document.getElementById("j3").style.top="73.2vh";
     document.getElementById("text").innerHTML="House With Garage and Lawn";
+    document.getElementById("tr1").style.opacity="1";
+    document.getElementById("tr2").style.opacity="1";
+    document.getElementById("tr3").style.opacity="0.8";
     }
-    else{
-      document.getElementById("int").style.scale="0.6";
-    document.getElementById("int").style.top="20vh";
-    document.getElementById("int").style.marginLeft="23vw";
+   else{
+    if (document.body.scrollTop > 1600 ||
+      document.documentElement.scrollTop > 1600) {
+        document.getElementById("int").style.scale="0.6";
+        document.getElementById("tr1").style.opacity="0";
+        document.getElementById("tr2").style.opacity="0";
+        document.getElementById("tr3").style.opacity="0";
+      }
+      else{
+      document.getElementById("int").style.scale="1";
+    document.getElementById("int").style.top="0vh";
+    document.getElementById("int").style.marginLeft="0vw";
     document.getElementById("a").style.width="80vw";
     document.getElementById("a").style.left="10vw";
-    document.getElementById("a").style.top="67.8vh";
-    document.getElementById("a1").style.right="27vw";
-    document.getElementById("b1").style.right="27vw";
-    document.getElementById("c1").style.right="27vw";
-    document.getElementById("d1").style.right="27vw";
+    document.getElementById("a").style.top="80vh";
+    document.getElementById("a1").style.right="46.6vw";
+    document.getElementById("b1").style.right="46.5vw";
+    document.getElementById("c1").style.right="46.5vw";
+    document.getElementById("d1").style.right="46.5vw";
     document.getElementById("i3").style.height="0vh";
     document.getElementById("j3").style.height="0vh";
     document.getElementById("i3").style.top="80vh";
     document.getElementById("j3").style.top="80vh";
-    }
+    document.getElementById("tr1").style.opacity="0";
+    document.getElementById("tr2").style.opacity="0";
+    document.getElementById("tr3").style.opacity="0";
+    }}
+    if (document.body.scrollTop > 3000 ||
+      document.documentElement.scrollTop > 3000) {
+    document.getElementById("text").innerHTML="Thank You! :)";
+      }
+      if (document.body.scrollTop > 2800 ||
+        document.documentElement.scrollTop > 2800) {
+          document.getElementById("myBtn").style.display="block";
+        }
+        else{
+          document.getElementById("myBtn").style.display="none";
+        }
+          
   }
