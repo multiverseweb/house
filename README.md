@@ -27,7 +27,7 @@ This repository showcases a captivating scroll-triggered website featuring an an
 1. Clone the repository:
    
 ```bash
-   git clone https://github.com/your-username/animated-house-on-scroll.git
+   git clone https://github.com/multiverseweb/house.git
 ```
 2. Open index.html in your preferred browser.
 
