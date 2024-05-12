@@ -75,9 +75,10 @@ document.getElementById("arrow").style.display="block";
     document.getElementById("c1").style.right = "-50vw";
     document.getElementById("d1").style.right = "-50vw";
   }
-  if (document.body.scrollTop > 1600 ||
-    document.documentElement.scrollTop > 1600) {
-    document.getElementById("int").style.marginLeft = "37vw";
+  
+  if (document.body.scrollTop > 1100 ||
+    document.documentElement.scrollTop > 1100) {
+      document.getElementById("text").innerHTML = "Keep scrolling...";
     document.getElementById("b").style.height = "39vh";
     document.getElementById("c").style.height = "60vh";
     document.getElementById("b").style.top = "40vh";
@@ -105,7 +106,6 @@ document.getElementById("arrow").style.display="block";
     document.getElementById("g1").style.left = "14vw";
     document.getElementById("u").style.height = "0vh";
     document.getElementById("v").style.height = "0vh";
-    document.getElementById("text").innerHTML = "House With Garage";
     document.getElementById("a1").style.right = "-50vw";
     document.getElementById("b1").style.right = "-50vw";
     document.getElementById("c1").style.right = "-50vw";
@@ -141,6 +141,12 @@ document.getElementById("arrow").style.display="block";
     document.getElementById("v").style.height = "15vh";
     document.getElementById("text").innerHTML = "House";
   }
+
+  if (document.body.scrollTop > 1600 ||
+    document.documentElement.scrollTop > 1600) {
+      document.getElementById("int").style.marginLeft = "37vw";
+      document.getElementById("text").innerHTML = "House With Garage";
+    }
 
   if (document.body.scrollTop > 400 ||
     document.documentElement.scrollTop > 400) {
@@ -249,6 +255,7 @@ document.getElementById("arrow").style.display="block";
   }
   if (document.body.scrollTop > 2300 ||
     document.documentElement.scrollTop > 2300) {
+      document.getElementById("text").innerHTML = "House With Garage & a car in it :P";
     document.getElementById("car").style.left = "-40vw";
     document.getElementById("a").style.left = "10vw";
     document.getElementById("a").style.width = "80vw";

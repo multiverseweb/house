@@ -8,6 +8,10 @@ body {
     overflow-x: hidden;
     font-family: 'Courier New', Courier, monospace;
 }
+
+a{
+    text-decoration: underline;
+}
 #main{
     transition-duration: 0s;
     opacity: 0;
@@ -677,3 +681,19 @@ body {
     color: rgba(255, 255, 255, 0.945);
     text-align: center;
 }  
+
+@media screen and (min-width: 400px) {
+    #int{
+        left:30%;
+        transform: scaleX(0.4);
+    }
+    .trees{
+        transform: scaleX(2.4) scaleY(1);
+    }
+    .plants{
+        transform: scaleX(2.4) scaleY(1);
+    }
+    #car{
+        transform: scaleY(1) scaleX(-2.4)
+    }
+}
