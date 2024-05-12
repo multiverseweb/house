@@ -171,8 +171,8 @@ document.getElementById("arrow").style.display="block";
     document.getElementById("r2").style.top = "65vh";
   }
 
-  if (document.body.scrollTop > 1600 ||
-    document.documentElement.scrollTop > 1600) {
+  if (document.body.scrollTop > 1800 ||
+    document.documentElement.scrollTop > 1800) {
     document.getElementById("o2").style.height = "15vh";
     document.getElementById("o2").style.top = "65vh";
     document.getElementById("q2").style.height = "6vw";
@@ -286,8 +286,8 @@ document.getElementById("arrow").style.display="block";
     document.getElementById("tr3").style.opacity = "0.8";
   }
   else {
-    if (document.body.scrollTop > 1600 ||
-      document.documentElement.scrollTop > 1600) {
+    if (document.body.scrollTop > 1400 ||
+      document.documentElement.scrollTop > 1400) {
       document.getElementById("int").style.scale = "0.6";
       document.getElementById("tr1").style.opacity = "0";
       document.getElementById("tr2").style.opacity = "0";
