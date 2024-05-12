@@ -40,3 +40,5 @@ Feel free to explore the code, experiment with different animations, and incorpo
 Contributions are welcome! If you have ideas for improvements, new features, or bug fixes, please open an issue or submit a pull request.
 
 Feel free to reach out if you have any questions or just want to share your thoughts about this project. Happy scrolling! ✨🚀
+
+[Try it live.](https://multiverseweb.github.io/house/)
