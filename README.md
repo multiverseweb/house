@@ -41,4 +41,4 @@ Contributions are welcome! If you have ideas for improvements, new features, or 
 
 Feel free to reach out if you have any questions or just want to share your thoughts about this project. Happy scrolling! ✨🚀
 
-[Try it live.](https://multiverseweb.github.io/house/)
+You can view the website [here](https://multiverseweb.github.io/house/).
