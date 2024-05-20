@@ -33,9 +33,6 @@ This repository showcases a captivating scroll-triggered website featuring an an
 
 3. Scroll through the page to experience the enchanting house animation.
 
-## Usage
-Feel free to explore the code, experiment with different animations, and incorporate this into your own projects. The possibilities for creativity are endless!
-
 ## Contributions
 Contributions are welcome! If you have ideas for improvements, new features, or bug fixes, please open an issue or submit a pull request.
 
