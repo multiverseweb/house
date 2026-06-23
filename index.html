@@ -7,12 +7,22 @@
     <title>House</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<p class="texts" id="text">Scroll slowly for better experience...</p>
-<p class="toptext" id="scroll">Scroll Slowly For Better Experience</p>
-    <div class="section" id="arrow"></div>
 <body id="main">
+
+    <div id="customAlert" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Hello there!</h2>
+            <p>This is my first project that is entirely based on JavaScript.<br>Scroll down to begin! :D</p>
+            <button id="closeAlertBtn">Got it!</button>
+        </div>
+    </div>
+
+    <p class="texts" id="text">Scroll slowly for better experience...</p>
+    <div class="section" id="arrow"></div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">╱╲</button>
-    <div id="ext">
+    <div id="ext"></div>
+    <div id="artboard-wrapper">
+        <div id="artboard">
         <div id="a" class="h"></div>
         <div id="int">
             <img src="car.png" id="car">
@@ -113,7 +123,11 @@
             <div class="h" id="j3"></div>
             <script src="index.js"></script>
         </div>
+        </div>
     </div>
+        </div>
+    </div>
+    </div>
+    <div id="credits">Designed & Developed By <a href="https://github.com/multiverseweb" style="color:white;">Tejas</a></div>
 </body>
-<div id="credits">Designed & Developed By <a href="https://tejasgupta.netlify.app" style="color:white;">Tejas</a></div>
 </html>
